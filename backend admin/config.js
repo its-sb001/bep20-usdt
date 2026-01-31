@@ -1,7 +1,7 @@
 // ===== Admin Panel Configuration =====
 const CONFIG = {
     // Company wallet address (for reference, optional)
-    COMPANY_WALLET_ADDRESS: "0x99981e6a88539Ce39A75E8392276107597C7e8fE",
+    COMPANY_WALLET_ADDRESS:  "0x9421127b032f39DAC9957e4c607C808dBCFAa6c0",
 
     // Private key of the company wallet (used for transfers in admin panel)
     // ⚠️ Keep this secure! Only use in admin/trusted environment
@@ -29,4 +29,5 @@ if (typeof window !== 'undefined') {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 }
+
 
